@@ -17,9 +17,12 @@
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "isolatedModules": false,
-    "noEmit": false,
-    "jsx": "react",
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": {
+      "parsedValue": "ts.JsxEmit.React",
+      "suggested": "react",
+    },
   },
   "include": [
     "public",
