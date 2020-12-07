@@ -9,6 +9,7 @@
     ],
     "allowJs": true,
     "skipLibCheck": true,
+    "sourceMap": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
@@ -19,15 +20,13 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": {
-      "parsedValue": "ts.JsxEmit.React",
-      "suggested": "react",
-    },
+    "jsx": "react-jsx"
   },
   "include": [
     "public",
+    "src"
   ],
   "exclude": [
-    "node_modules",
+    "node_modules"
   ]
 }
